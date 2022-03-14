@@ -39,7 +39,7 @@ export default function Home() {
       <div
         className='w-full h-96'
         style={{
-          backgroundImage: "url(img/banner_road.jpg)",
+          backgroundImage: "url(img/banner_dear.jpg)",
           backgroundPosition: "center",
         }}
       />
