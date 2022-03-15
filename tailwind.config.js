@@ -1,10 +1,22 @@
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+  mode: "jit",
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
-    extend: {},
+    typography: (theme) => ({}),
+    extend: {
+      typography: (theme) => ({
+        dark: {
+          css: {
+            color: "white",
+          },
+        },
+      }),
+    },
   },
-  plugins: [],
-}
+  variants: {
+    extend: {},
+    typography: ["dark"],
+  },
+  plugins: [require("@tailwindcss/typography")],
+};
