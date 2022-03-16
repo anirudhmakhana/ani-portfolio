@@ -3,6 +3,9 @@ import React from "react";
 export default function ContactForm() {
   return (
     <div className="p-6">
+      <h1 className="text-3xl font-bold tracking-tight mt-3 mb-1">
+        Contact Me!
+      </h1>
       <form>
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col">

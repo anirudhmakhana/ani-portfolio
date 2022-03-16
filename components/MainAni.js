@@ -38,7 +38,8 @@ function MainAni() {
         I am Anirudh Makhana, an undergraudate software engineering student at
         King Mongkut's Institute Of Technology Ladkarabang, Thailand. I am
         currently learning to build Blockchain use-cases with IoT and AI
-        applications.
+        applications. My interest include smart homes, electric cars, and many
+        more!
       </p>
 
       <p>
@@ -83,10 +84,19 @@ function MainAni() {
       </div>
 
       <div className="mt-10 inline-flex items-center space-x-2">
-        <p className="text-sm">Wanna Hire me?</p>
-        <Link href="/ContactForm.js">
+        <p className="text-sm">Wanna hire me?</p>
+        <Link href="/ContactForm">
           <a className="text-sm font-bold no-underline hover:underline">
             Contact Me!{" "}
+            <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
+          </a>
+        </Link>
+      </div>
+
+      <div className="flex space-x-5 mt-5">
+        <Link href="/ContactForm">
+          <a className="text-sm font-bold no-underline hover:underline">
+            See other services I offer{" "}
             <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
           </a>
         </Link>
