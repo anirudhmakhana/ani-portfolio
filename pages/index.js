@@ -5,20 +5,7 @@ import { Moon, Sun } from "react-feather";
 import MainAni from "../components/MainAni";
 import Positions from "../components/Positions";
 import Books from "../components/Books";
-const talkAbout = [
-  "React",
-  "JavaScript",
-  "TypeScript",
-  "GraphQL",
-  "Redux",
-  "Jamstack",
-  "Next.js",
-  "RESTful APIs",
-  "HTML",
-  "CSS",
-  "Gatsby",
-  "Svelte",
-];
+import TechStack from "../components/TechStack";
 
 export default function Home() {
   const { theme, setTheme } = useTheme("");
@@ -57,6 +44,10 @@ export default function Home() {
         <div className="border-b dark:border-gray-700 pb-10">
           {/* Main Section */}
           <MainAni />
+        </div>
+
+        <div className="mt-12">
+          <TechStack />
         </div>
 
         <div className="mt-12">

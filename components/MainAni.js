@@ -3,12 +3,8 @@ import Image from "next/image";
 import tags from "../data/tags.json";
 import { GitHub, Instagram, Linkedin, Youtube, Twitch } from "react-feather";
 import Link from "next/link";
-import { saveAs } from "file-saver";
 
 function MainAni() {
-  const saveFile = () => {
-    saveAs("/public/Career/Resume2022.pdf", "example.pdf");
-  };
   return (
     <div>
       <Image
@@ -87,8 +83,13 @@ function MainAni() {
       </div>
 
       <div className="mt-10 inline-flex items-center space-x-2">
-        <p className="text-sm">Hire me?</p>
-        <button onClick={saveFile}>download</button>
+        <p className="text-sm">Wanna Hire me?</p>
+        <Link href="/ContactForm.js">
+          <a className="text-sm font-bold no-underline hover:underline">
+            Contact Me!{" "}
+            <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
+          </a>
+        </Link>
       </div>
     </div>
   );

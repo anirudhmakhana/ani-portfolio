@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.2",
+    "devicon-react-svg": "^0.2.3",
     "file-saver": "^2.0.5",
     "next": "12.1.0",
     "next-themes": "^0.1.1",
