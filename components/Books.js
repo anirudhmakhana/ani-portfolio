@@ -42,7 +42,7 @@ function Books() {
   }, []);
   return (
     <div>
-      <h3 className="font-bold text-2xl mb-3">📚 Books I Read:</h3>
+      <h3 className="font-bold text-2xl mb-3">📚 Personal Bookshelf</h3>
 
       <div className={`grid ${getZoom()} gap-3 mt-12`}>
         {images.map((image, index) => (

@@ -6,6 +6,7 @@ import MainAni from "../components/MainAni";
 import Positions from "../components/Positions";
 import Books from "../components/Books";
 import TechStack from "../components/TechStack";
+import Technologies from "../components/Technologies";
 
 export default function Home() {
   const { theme, setTheme } = useTheme("");
@@ -18,10 +19,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Anirudh Makhana</title>
-        <meta
-          name="description"
-          content="Anirudh Makhana is a Software Engineer."
-        />
+        <meta property="og:image" content="https://imgur.com/ut0rh8T" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
 
@@ -48,6 +46,10 @@ export default function Home() {
 
         <div className="mt-12">
           <TechStack />
+        </div>
+
+        <div className="mt-12">
+          <Technologies />
         </div>
 
         <div className="mt-12">
