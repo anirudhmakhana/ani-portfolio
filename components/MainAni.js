@@ -1,7 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import tags from "../data/tags.json";
-import { GitHub, Instagram, Linkedin, Youtube, Twitch } from "react-feather";
+import {
+  GitHub,
+  Instagram,
+  Linkedin,
+  Youtube,
+  Twitch,
+  Mail,
+} from "react-feather";
 import Link from "next/link";
 
 function MainAni() {
@@ -47,56 +54,11 @@ function MainAni() {
         a Cypher main)
       </p>
 
-      <div className="flex space-x-5 mt-5">
-        <a
-          rel="noopener"
-          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
-          href="https://instagram.com/anirudhmakhana"
-          target="_blank"
-        >
-          <Instagram size={26} />
-        </a>
-        <a
-          rel="noopener"
-          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
-          href="https://www.linkedin.com/in/anirudh-m-678284170/"
-          target="_blank"
-        >
-          <Linkedin size={26} />
-        </a>
-        <a
-          rel="noopener"
-          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
-          href="https://github.com/anirudhmakhana"
-          target="_blank"
-        >
-          <GitHub size={26} />
-        </a>
-
-        <a
-          rel="noopener"
-          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
-          href="https://twitch.tv/makhanaanirudh"
-          target="_blank"
-        >
-          <Twitch size={26} />
-        </a>
-      </div>
-
       <div className="mt-10 inline-flex items-center space-x-2">
-        <p className="text-sm">Wanna hire me?</p>
-        <Link href="/ContactForm">
+        <p className="text-sm">You think I can help you?</p>
+        <Link href="/contactme">
           <a className="text-sm font-bold no-underline hover:underline">
-            Contact Me!{" "}
-            <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
-          </a>
-        </Link>
-      </div>
-
-      <div className="flex space-x-5 mt-5">
-        <Link href="/ContactForm">
-          <a className="text-sm font-bold no-underline hover:underline">
-            See other services I offer{" "}
+            Feel free to contact Me!{" "}
             <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
           </a>
         </Link>
