@@ -8,7 +8,10 @@ function Positions() {
       <h3 className="font-bold text-2xl mb-3">💻 Work</h3>
 
       {positions.map((p, i) => (
-        <div className="hover:bg-gray-50 dark:hover:bg-gray-800 flex items-start border-b dark:border-gray-700 py-5 px-2">
+        <div
+          className="hover:bg-gray-50 dark:hover:bg-gray-800 flex items-start border-b dark:border-gray-700 py-5 px-2"
+          key={`${p.img}+${i}`}
+        >
           <div className="inline-flex min-w-[40px]">
             <Image
               src={p.img}

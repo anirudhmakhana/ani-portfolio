@@ -43,15 +43,15 @@ function MainAni() {
       <h3 className="font-bold text-2xl">Hey there!</h3>
       <p className="mt-5 prose dark:prose-dark">
         I am Anirudh Makhana, an undergraudate software engineering student at
-        King Mongkut's Institute Of Technology Ladkarabang, Thailand. I am
+        King Mongkut&apos;s Institute Of Technology Ladkarabang, Thailand. I am
         currently learning to build Blockchain use-cases with IoT and AI
         applications. My interest include smart homes, electric cars, and many
         more!
       </p>
 
       <p>
-        I also enjoy working out and playing Valorant in my free time. (Yes, I'm
-        a Cypher main)
+        I also enjoy working out and playing Valorant in my free time. (Yes,
+        I&apos;m a Cypher main)
       </p>
 
       <div className="mt-10 inline-flex items-center space-x-2">
