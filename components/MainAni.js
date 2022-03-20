@@ -8,6 +8,8 @@ import {
   Youtube,
   Twitch,
   Mail,
+  Twitter,
+  Discord,
 } from "react-feather";
 import Link from "next/link";
 
@@ -54,14 +56,60 @@ function MainAni() {
         I&apos;m a Cypher main)
       </p>
 
-      <div className="mt-10 inline-flex items-center space-x-2">
-        <p className="text-sm">Got any questions?</p>
-        <Link href="/contactme">
-          <a className="text-sm font-bold no-underline hover:underline">
-            Feel free to contact Me!{" "}
-            <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
-          </a>
-        </Link>
+      <div className="flex space-x-5 mt-5 items-center content-center">
+        <a
+          rel="noopener"
+          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
+          href="mailto:makhana.anirudh@gmail.com"
+        >
+          <Mail size={26} />
+        </a>
+
+        <a
+          rel="noopener"
+          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
+          href="https://instagram.com/anirudhmakhana"
+        >
+          <Instagram size={26} />
+        </a>
+        <a
+          rel="noopener"
+          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
+          href="https://www.linkedin.com/in/anirudh-m-678284170/"
+        >
+          <Linkedin size={26} />
+        </a>
+        <a
+          rel="noopener"
+          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
+          href="https://github.com/anirudhmakhana"
+        >
+          <GitHub size={26} />
+        </a>
+
+        <a
+          rel="noopener"
+          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
+          href="https://twitch.tv/makhanaanirudh"
+        >
+          <Twitch size={26} />
+        </a>
+
+        <a
+          rel="noopener"
+          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
+          href="https://www.youtube.com/c/AnirudhMakhana"
+        >
+          <Youtube size={26} />
+        </a>
+
+        <a
+          rel="noopener"
+          className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
+          href="https://twitter.com/MakhanaAnirudh"
+        >
+          <Twitter size={26} />
+        </a>
       </div>
 
       <div className="mt-10 flex items-center space-x-2">
@@ -69,6 +117,16 @@ function MainAni() {
         <Link href="https://github.com/anirudhmakhana/resume/blob/master/Software_Engineer_Resume.pdf">
           <a className="text-sm font-bold no-underline hover:underline">
             Get my Resume!{" "}
+            <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
+          </a>
+        </Link>
+      </div>
+
+      <div className="mt-10 flex items-center space-x-2">
+        <p className="text-sm"></p>
+        <Link href="/Projects">
+          <a className="text-sm font-bold no-underline hover:underline">
+            View my Projects here!{" "}
             <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
           </a>
         </Link>
