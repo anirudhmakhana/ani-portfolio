@@ -55,10 +55,20 @@ function MainAni() {
       </p>
 
       <div className="mt-10 inline-flex items-center space-x-2">
-        <p className="text-sm">You think I can help you?</p>
+        <p className="text-sm">Got any questions?</p>
         <Link href="/contactme">
           <a className="text-sm font-bold no-underline hover:underline">
             Feel free to contact Me!{" "}
+            <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
+          </a>
+        </Link>
+      </div>
+
+      <div className="mt-10 flex items-center space-x-2">
+        <p className="text-sm"></p>
+        <Link href="https://github.com/anirudhmakhana/resume/blob/master/Software_Engineer_Resume.pdf">
+          <a className="text-sm font-bold no-underline hover:underline">
+            Get my Resume!{" "}
             <span className="text-gray-500 dark:text-gray-400">&rarr;</span>
           </a>
         </Link>

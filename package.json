@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.1",
     "@tailwindcss/typography": "^0.5.2",
     "devicon-react-svg": "^0.2.3",
     "file-saver": "^2.0.5",
