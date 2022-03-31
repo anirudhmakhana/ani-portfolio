@@ -19,8 +19,35 @@ export default function Home() {
     <div>
       <Head>
         <title>Anirudh Makhana</title>
-        <meta property="og:image" content="https://imgur.com/ut0rh8T" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="title" content="GIF Portal" />
+        <meta
+          name="description"
+          content="Check out Anirudh's Portfolio. A Software Engineer with keen interest in Blockchain, IoT and AI."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.anirudhmakhana.xyz/" />
+        <meta property="og:title" content="Anriudh Makhana" />
+        <meta
+          property="og:description"
+          content="Check out Anirudh's Portfolio. A Software Engineer with keen interest in Blockchain, IoT and AI."
+        />
+        <meta property="og:image" content="https://i.imgur.com/ut0rh8T.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://www.anirudhmakhana.xyz/"
+        />
+        <meta property="twitter:title" content="Anirudh Makhana" />
+        <meta
+          property="twitter:description"
+          content="Check out Anirudh's Portfolio. A Software Engineer with keen interest in Blockchain, IoT and AI."
+        />
+        <meta
+          property="twitter:image"
+          content="https://i.imgur.com/ut0rh8T.png"
+        />
       </Head>
 
       <div
