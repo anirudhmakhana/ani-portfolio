@@ -80,14 +80,24 @@ export default function Projects() {
                 </svg>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className="text-lg title-font font-medium mb-2">Uber3.0</h2>
+                <h2 className="text-lg title-font font-medium mb-2">Robinhood3.0</h2>
                 <p className="leading-relaxed text-base">
-                  Uber application built upon the Ethereum Blockchain. Allows
-                  users to pay in crypto and make transactions on the Ethereum
-                  Blockchain.
+                Robinhood Blockchain Web 3.0 App using Moralis, Solidity, Next JS, Sanity.io, Tailwind CSS, and Netlify 
                 </p>
-                <a className="mt-3 text-indigo-400 inline-flex items-center">
-                  Work in progress...
+                <a className="mt-3 text-indigo-400 inline-flex items-center"
+                href="https://github.com/anirudhmakhana/robinhood3.0">
+                Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
                 </a>
               </div>
             </div>

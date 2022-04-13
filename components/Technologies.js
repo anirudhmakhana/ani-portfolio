@@ -5,7 +5,7 @@ function Technologies() {
   return (
     <div>
       <h3 className="font-bold text-2xl mb-3">Technologies</h3>
-      <div className="flex space-x-3 mt-3 mb-12">
+      <div className="flex-end text-center mt-3 mb-12">
         {technologies.map((t, i) => (
           <div
             key={i}

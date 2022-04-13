@@ -44,7 +44,7 @@ function MainAni() {
 
       <h3 className="font-bold text-2xl">Hey there!</h3>
       <p className="mt-5 prose dark:prose-dark">
-        I am Anirudh Makhana, an undergraudate software engineering student at
+        I am Anirudh Makhana, an undergraduate software engineering student at
         King Mongkut&apos;s Institute Of Technology Ladkarabang, Thailand. I am
         currently learning to build Blockchain use-cases with IoT and AI
         applications. My interest include smart homes, electric cars, and many
@@ -56,7 +56,7 @@ function MainAni() {
         I&apos;m a Cypher main)
       </p>
 
-      <div className="flex space-x-5 mt-5 items-center content-center">
+      <div className="flex flex-row space-x-5 mt-5 items-center content-center">
         <a
           rel="noopener"
           className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
@@ -87,7 +87,7 @@ function MainAni() {
           <GitHub size={26} />
         </a>
 
-        <a
+        {/* <a
           rel="noopener"
           className="hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-2xl transition"
           href="https://twitch.tv/makhanaanirudh"
@@ -101,7 +101,7 @@ function MainAni() {
           href="https://www.youtube.com/c/AnirudhMakhana"
         >
           <Youtube size={26} />
-        </a>
+        </a> */}
 
         <a
           rel="noopener"
