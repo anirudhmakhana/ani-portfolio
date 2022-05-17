@@ -7,8 +7,14 @@
   },
   {
     "title": "Core Member",
-    "desc": "GDSC KMITL · August 2021 - Now",
+    "desc": "GDSC KMITL · August 2021 - May 2022",
     "img": "/img/logos/google.png",
     "doing": "Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a GDSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community."
+  },
+  {
+    "title": "Blockchain Engineer Intern",
+    "desc": "Advanced Info Service (AIS) Thailand· June 2022 - Now",
+    "img": "/img/logos/AIS-square.png",
+    "doing": "Responsible for developing application features and interfaces using blockchain technology, and maintaining client/server-side applications. Also responsible for designing, implementing and administering a blockchain network."
   }
 ]
